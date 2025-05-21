@@ -1,5 +1,5 @@
 ---
-transition: slide-up
+transition: slide-left
 layout: center
 ---
 
@@ -12,5 +12,12 @@ layout: center
   divide a b = if b == 0
     then Left "division by zero"
     else Right (a `div` b)
+
+  main :: IO ()
+  main = do
+    let result = divide 10 0
+    case result of
+      Left err -> putStrLn $ "Error: " ++ err
+      Right val -> putStrLn $ "Result: " ++ show val
 ```
 </div>

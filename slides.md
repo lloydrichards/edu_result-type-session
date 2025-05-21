@@ -27,6 +27,9 @@ lineNumbers: True
 
 # controls whether texts in slides are selectable
 selectable: true
+twoslash: true
+fonts:
+  size: 1.2em
 ---
 
 
@@ -59,6 +62,12 @@ src: ./src/pages/lang-3.md
 ---
 ---
 src: ./src/pages/lang-4.md
+---
+---
+src: ./src/pages/what-1.md
+---
+---
+src: ./src/pages/what-2.md
 ---
 
 ---

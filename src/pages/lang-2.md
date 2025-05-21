@@ -3,17 +3,26 @@ transition: slide-up
 layout: center
 ---
 
-# Rust
+# Go
 
 <div class="py-16">
 
-```rust
-  fn divide(a: i32, b: i32) -> Result<i32, String> {
+```go
+  func divide(a, b int) (int, error) {
     if b == 0 {
-      Err("division by zero".to_string())
+      return 0, errors.New("division by zero")
+    }
+    return a / b, nil
+  }
+
+  func main() {
+    result, err := divide(10, 0)
+    if err != nil {
+      fmt.Println("Error:", err)
     } else {
-      Ok(a / b)
+      fmt.Println("Result:", result)
     }
   }
 ```
+
 </div>

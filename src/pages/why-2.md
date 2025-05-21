@@ -3,20 +3,27 @@ transition: slide-left
 layout: center
 ---
 
-## "Every function you write has two sets of inputs and outputs"
+### "Every function you write has two sets of inputs and outputs"
 ~ Kris Jenkins
+
+<div class="h-60 w-full">
 
 <v-click>
 
 ```mermaid
+%%{ init: { 'flowchart': { 'curve': 'step' } } }%%
 flowchart LR
   A1(Inputs) --> B{Function}
-  A2(Hidden) -.-> B
-  B --> C1(Result)
-  B -.-> C2(Hidden)
+  A2(Dependencies) -.-> B
+  B --> C1(Expected)
+  B -.-> C2(Unexpected)
 
+  style A2 opacity:30%
+  style C2 opacity:30%
 ```
 </v-click>
+
+</div>
 
 
 <div class="absolute right-30px bottom-30px">

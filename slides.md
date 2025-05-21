@@ -48,6 +48,18 @@ src: ./src/pages/why-1.md
 ---
 src: ./src/pages/why-2.md
 ---
+---
+src: ./src/pages/lang-1.md
+---
+---
+src: ./src/pages/lang-2.md
+---
+---
+src: ./src/pages/lang-3.md
+---
+---
+src: ./src/pages/lang-4.md
+---
 
 ---
 layout: end

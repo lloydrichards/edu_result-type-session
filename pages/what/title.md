@@ -1,6 +1,6 @@
 ---
 transition: slide-left
-layout: two-cols
+layout: section
 ---
 
 # What is a Result Type?

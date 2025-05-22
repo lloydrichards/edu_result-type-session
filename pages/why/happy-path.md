@@ -3,7 +3,7 @@ transition: slide-left
 layout: two-cols
 ---
 
-# The Problem with the "Happy Path"
+# "Happy Path Blindness"
 
 ### What could go wrong?
 
@@ -19,18 +19,7 @@ layout: two-cols
 </div>
 
 ::right::
-<div class="py-32">
 
-```ts
-type User = {
-  id: string;
-  name: string;
-};
+<div class="py-16" />
 
-const getUser = async(id: string): Promise<User> =>{
-  const res = await fetch(`/api/users/${id}`);
-  return res.json();
-}
-```
-
-</div>
+<<< @/snippets/levels/base.ts#snippet{1-7}

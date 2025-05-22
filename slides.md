@@ -28,12 +28,14 @@ lineNumbers: True
 # controls whether texts in slides are selectable
 selectable: true
 twoslash: true
-fonts:
-  size: 1.2em
+
+layout: cover
+
 ---
 
 
 # Result Types
+## Safe and Sound Error Handling
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
@@ -41,33 +43,95 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 
 ---
-src: ./src/pages/intro.md
+src: ./pages/intro.md
 ---
 
 ---
-src: ./src/pages/why-1.md
+src: ./pages/why/happy-path.md
 ---
 
 ---
-src: ./src/pages/why-2.md
+src: ./pages/why/two-sets.md
 ---
+
 ---
-src: ./src/pages/lang-1.md
+src: ./pages/lang/title.md
 ---
+
 ---
-src: ./src/pages/lang-2.md
+src: ./pages/lang/go.md
 ---
+
 ---
-src: ./src/pages/lang-3.md
+src: ./pages/lang/haskell.md
 ---
+
 ---
-src: ./src/pages/lang-4.md
+src: ./pages/lang/rust.md
 ---
+
 ---
-src: ./src/pages/what-1.md
+src: ./pages/what/title.md
 ---
+
 ---
-src: ./src/pages/what-2.md
+src: ./pages/what/tryCatch-block.md
+---
+
+---
+src: ./pages/what/tryCatch-union.md
+---
+
+---
+src: ./pages/what/either.md
+---
+
+---
+src: ./pages/what/compare.md
+---
+
+---
+src: ./pages/what/effect.md
+---
+
+---
+src: ./pages/example/title.md
+---
+
+---
+src: ./pages/example/jme-sequence.md
+---
+
+---
+src: ./pages/example/jme-happy.md
+---
+
+---
+src: ./pages/example/jme-reality.md
+---
+
+---
+src: ./pages/example/jme-failures.md
+---
+
+---
+src: ./pages/patterns/title.md
+---
+
+---
+src: ./pages/patterns/jme-handleError.md
+---
+
+---
+src: ./pages/patterns/jme-taggedError.md
+---
+
+---
+src: ./pages/patterns/jme-Expand.md
+---
+
+---
+src: ./pages/resources.md
 ---
 
 ---

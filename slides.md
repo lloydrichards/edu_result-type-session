@@ -100,6 +100,10 @@ src: ./pages/example/jme-sequence.md
 ---
 
 ---
+src: ./pages/example/jme-sequence-2.md
+---
+
+---
 src: ./pages/example/jme-happy.md
 ---
 

@@ -5,7 +5,7 @@ layout: default
 
 ### Data.taggedError
 
-```ts {all|1,6,10,15|19}
+```ts {all|1,6,10,15|19|all}
 class DatabaseUnavailable extends Data.TaggedError('DatabaseUnavailable')<{
   message: string;
   reason?: unknown;

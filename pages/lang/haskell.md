@@ -5,4 +5,4 @@ layout: center
 
 # Haskell
 
-<<< @/snippets/lang/haskell-example.hs haskell {all|1|3,4|9-11}
+<<< @/snippets/lang/haskell-example.hs haskell {all|1|3,4|9-11|all}

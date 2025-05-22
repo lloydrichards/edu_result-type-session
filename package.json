@@ -21,6 +21,7 @@
     "vue": "^3.5.14"
   },
   "devDependencies": {
-    "@effect/language-service": "^0.16.6"
+    "@effect/language-service": "^0.16.6",
+    "playwright-chromium": "^1.52.0"
   }
 }

@@ -5,7 +5,7 @@ layout: default
 
 ### Expand Utility
 
-```ts {all|13|9,15,17|21} twoslash
+```ts {all|13|9,15,17|21|all} twoslash
 import { Data, Either } from "effect";
 import type { ParseError } from "effect/ParseResult";
 

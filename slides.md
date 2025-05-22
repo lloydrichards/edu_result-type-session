@@ -124,6 +124,10 @@ src: ./pages/patterns/jme-handleError.md
 ---
 
 ---
+src: ./pages/patterns/jme-handleError-2.md
+---
+
+---
 src: ./pages/patterns/jme-taggedError.md
 ---
 
@@ -140,7 +144,7 @@ layout: end
 class: text-center
 ---
 
-# Learn More
+# Thank you!
 
 [Materials](https://sli.dev) · [GitHub](https://github.com/lloydrichards)
 <PoweredBySlidev mt-10 />

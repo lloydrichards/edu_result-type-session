@@ -1,5 +1,5 @@
 ---
-transition: fade-out
+transition: slide-left
 layout: default
 ---
 

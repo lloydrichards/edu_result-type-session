@@ -1,6 +1,6 @@
 ---
 transition: slide-down
-layout: default
+layout: two-cols
 ---
 
 ## tryCatch Block

@@ -1,8 +1,10 @@
 import type { DataT } from "./domain";
 
-const getData = async <T>(from: string, to: string) => {
+// region snippet
+const getData = async <T>(from: string) => {
   try {
-    const res = await fetch(`/api/data?from=${from},to=${to}`);
+    const url = `/api/data?from=${from}`;
+    const res = await fetch(url);
     if (!res.ok) {
       throw new Error(res.statusText);
     }
@@ -14,5 +16,6 @@ const getData = async <T>(from: string, to: string) => {
 };
 
 const main = async () => {
-  const data = await getData<DataT[]>("2024", "2025");
+  const data = await getData<DataT[]>("2024");
 };
+// endregion snippet

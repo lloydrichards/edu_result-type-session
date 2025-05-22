@@ -22,4 +22,4 @@ layout: two-cols
 
 <div class="py-16" />
 
-<<< @/snippets/levels/base.ts#snippet{1-7}
+<<< @/snippets/levels/base.ts#snippet{1-8|3,7|all}

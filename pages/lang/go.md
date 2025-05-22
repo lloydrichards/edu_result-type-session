@@ -4,7 +4,5 @@ layout: center
 ---
 
 # Go
-````md magic-move
-<<< @/snippets/lang/go-example.go#snippet go
+<<< @/snippets/lang/go-example.go#snippet go {all|1|3,5|10-13}
 
-````

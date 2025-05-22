@@ -4,6 +4,7 @@ import (
 	"errors"
 	"fmt"
 )
+
 // #region snippet
 func divide(a, b int) (int, error) {
 	if b == 0 {
@@ -20,4 +21,5 @@ func main() {
 		fmt.Println("Result:", result)
 	}
 }
+
 // #endregion snippet

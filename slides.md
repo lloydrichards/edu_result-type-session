@@ -4,7 +4,7 @@
 addons:
   - slidev-addon-rabbit
 rabbit:
-  slideNum: true   # Show current/total slide numbers next to a rabbit icon
+  slideNum: true # Show current/total slide numbers next to a rabbit icon
 
 theme: the-unnamed
 
@@ -30,9 +30,7 @@ selectable: true
 twoslash: true
 
 layout: cover
-
 ---
-
 
 # Result Types
 ## Safe and Sound Error Handling
@@ -40,7 +38,6 @@ layout: cover
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
-
 
 ---
 src: ./pages/intro.md

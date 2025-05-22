@@ -1,9 +1,12 @@
 ---
 transition: slide-down
-layout: two-cols
+layout: two-cols-header
+layoutClass: gap-lg
 ---
 
 ## tryCatch Block
+
+::left::
 
 ````md magic-move
 <<< @/snippets/levels/base.ts#snippet ts

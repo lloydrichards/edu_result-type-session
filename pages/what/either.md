@@ -1,6 +1,7 @@
 ---
 transition: slide-down
 layout: two-cols-header
+layoutClass: gap-lg
 ---
 
 ## Either 

@@ -1,7 +1,7 @@
 ---
 transition: slide-down
 layout: two-cols-header
-
+layoutClass: gap-lg
 ---
 
 ## Discriminate Union  

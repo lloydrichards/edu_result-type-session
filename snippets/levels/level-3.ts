@@ -3,20 +3,20 @@ import { Data, Either, Schema } from "effect";
 // region errors
 import type { ParseError } from "effect/ParseResult";
 
-export class DataException extends Data.TaggedError(
+class DataException extends Data.TaggedError(
   "FetchException"
 )<{
   message: string;
   reason?: unknown;
 }> {}
 
-export class BadServerResponse extends Data.TaggedError(
+class BadServerResponse extends Data.TaggedError(
   "BadServerResponse"
 )<{
   message: string;
 }> {}
 
-export type DataFailure =
+type DataFailure =
   | DataException
   | BadServerResponse
   | ParseError;
